@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="213" started-at="2019-08-24T01:31:16Z" finished-at="2019-08-24T01:31:17Z">
+  <suite name="Regression Suite" duration-ms="6923" started-at="2019-08-24T01:57:35Z" finished-at="2019-08-24T01:57:42Z">
     <groups>
     </groups>
-    <test name="LoginTests for Chrome" duration-ms="177" started-at="2019-08-24T01:31:16Z" finished-at="2019-08-24T01:31:17Z">
+    <test name="LoginTests for Chrome" duration-ms="6923" started-at="2019-08-24T01:57:35Z" finished-at="2019-08-24T01:57:42Z">
       <class name="com.reqresLoginTests.LoginTests">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.reqresLoginTests.LoginTests@16e7dcfd]" name="beforeClass" is-config="true" duration-ms="17" started-at="2019-08-23T21:31:16Z" finished-at="2019-08-23T21:31:16Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.reqresLoginTests.LoginTests@65d6b83b]" name="beforeClass" is-config="true" duration-ms="5928" started-at="2019-08-23T21:57:35Z" finished-at="2019-08-23T21:57:41Z">
           <params>
             <param index="0">
               <value>
@@ -18,46 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.reqresLoginTests.LoginTests@16e7dcfd]" name="successfulLogin" duration-ms="56" started-at="2019-08-23T21:31:16Z" finished-at="2019-08-23T21:31:16Z">
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.reqresLoginTests.LoginTests@65d6b83b]" name="successfulLogin" duration-ms="81" started-at="2019-08-23T21:57:41Z" finished-at="2019-08-23T21:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLogin -->
-        <test-method status="PASS" signature="invalidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@16e7dcfd]" name="invalidUsername" duration-ms="3" started-at="2019-08-23T21:31:17Z" finished-at="2019-08-23T21:31:17Z">
+        <test-method status="PASS" signature="invalidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@65d6b83b]" name="invalidUsername" duration-ms="9" started-at="2019-08-23T21:57:41Z" finished-at="2019-08-23T21:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsername -->
-        <test-method status="PASS" signature="invalidPassword_butValidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@16e7dcfd]" name="invalidPassword_butValidUsername" duration-ms="2" started-at="2019-08-23T21:31:17Z" finished-at="2019-08-23T21:31:17Z">
+        <test-method status="PASS" signature="invalidPassword_butValidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@65d6b83b]" name="invalidPassword_butValidUsername" duration-ms="628" started-at="2019-08-23T21:57:41Z" finished-at="2019-08-23T21:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword_butValidUsername -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.reqresLoginTests.LoginTests@65d6b83b]" name="afterClass" is-config="true" duration-ms="168" started-at="2019-08-23T21:57:41Z" finished-at="2019-08-23T21:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- com.reqresLoginTests.LoginTests -->
     </test> <!-- LoginTests for Chrome -->
-    <test name="LoginTests for IE" duration-ms="12" started-at="2019-08-24T01:31:17Z" finished-at="2019-08-24T01:31:17Z">
-      <class name="com.reqresLoginTests.LoginTests">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.reqresLoginTests.LoginTests@54c562f7]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-08-23T21:31:17Z" finished-at="2019-08-23T21:31:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.reqresLoginTests.LoginTests@54c562f7]" name="successfulLogin" duration-ms="2" started-at="2019-08-23T21:31:17Z" finished-at="2019-08-23T21:31:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulLogin -->
-        <test-method status="PASS" signature="invalidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@54c562f7]" name="invalidUsername" duration-ms="2" started-at="2019-08-23T21:31:17Z" finished-at="2019-08-23T21:31:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUsername -->
-        <test-method status="PASS" signature="invalidPassword_butValidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@54c562f7]" name="invalidPassword_butValidUsername" duration-ms="3" started-at="2019-08-23T21:31:17Z" finished-at="2019-08-23T21:31:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidPassword_butValidUsername -->
-      </class> <!-- com.reqresLoginTests.LoginTests -->
-    </test> <!-- LoginTests for IE -->
   </suite> <!-- Regression Suite -->
 </testng-results>

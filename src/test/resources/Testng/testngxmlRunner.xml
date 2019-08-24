@@ -18,7 +18,7 @@
 	</test>
 
 
-	<test name="LoginTests for IE">
+	<!-- <test name="LoginTests for IE">
 
 		<parameter name="browserType" value="IE"></parameter>
 
@@ -29,6 +29,6 @@
 
 		</classes>
 
-	</test>
+	</test> -->
 
 </suite>
