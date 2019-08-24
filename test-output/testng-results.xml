@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="239" started-at="2019-08-24T00:55:19Z" finished-at="2019-08-24T00:55:19Z">
+    <groups>
+    </groups>
+    <test name="LoginTests for Chrome" duration-ms="196" started-at="2019-08-24T00:55:19Z" finished-at="2019-08-24T00:55:19Z">
+      <class name="com.reqresLoginTests.LoginTests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.reqresLoginTests.LoginTests@353d0772]" name="beforeClass" is-config="true" duration-ms="16" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.reqresLoginTests.LoginTests@353d0772]" name="successfulLogin" duration-ms="60" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="invalidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@353d0772]" name="invalidUsername" duration-ms="7" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method status="PASS" signature="invalidPassword_butValidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@353d0772]" name="invalidPassword_butValidUsername" duration-ms="5" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword_butValidUsername -->
+      </class> <!-- com.reqresLoginTests.LoginTests -->
+    </test> <!-- LoginTests for Chrome -->
+    <test name="LoginTests for IE" duration-ms="21" started-at="2019-08-24T00:55:19Z" finished-at="2019-08-24T00:55:19Z">
+      <class name="com.reqresLoginTests.LoginTests">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.reqresLoginTests.LoginTests@72f926e6]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="successfulLogin()[pri:0, instance:com.reqresLoginTests.LoginTests@72f926e6]" name="successfulLogin" duration-ms="5" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="invalidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@72f926e6]" name="invalidUsername" duration-ms="5" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method status="PASS" signature="invalidPassword_butValidUsername()[pri:0, instance:com.reqresLoginTests.LoginTests@72f926e6]" name="invalidPassword_butValidUsername" duration-ms="4" started-at="2019-08-23T20:55:19Z" finished-at="2019-08-23T20:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword_butValidUsername -->
+      </class> <!-- com.reqresLoginTests.LoginTests -->
+    </test> <!-- LoginTests for IE -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
